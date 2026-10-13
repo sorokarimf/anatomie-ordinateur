@@ -2,6 +2,8 @@
 
 *[English version → README.en.md](README.en.md)*
 
+**▶ Essayer en ligne : [https://sorokarimf.github.io/anatomie-ordinateur/](https://sorokarimf.github.io/anatomie-ordinateur/)** · [Laptop en vue éclatée](https://sorokarimf.github.io/anatomie-ordinateur/laptop-light.html) · [Machine à instructions](https://sorokarimf.github.io/anatomie-ordinateur/machine-a-instructions-light.html)
+
 Deux figures **isométriques et interactives** qui expliquent le fonctionnement d'un ordinateur en montrant des objets réels, pas des schémas à flèches :
 
 | Figure | Ce qu'elle explique |
@@ -22,7 +24,7 @@ Ouvrez directement un fichier de [`docs/`](docs/) dans votre navigateur (double-
 - [`docs/laptop-light.html`](docs/laptop-light.html) · [`docs/laptop.html`](docs/laptop.html) (sombre)
 - [`docs/machine-a-instructions-light.html`](docs/machine-a-instructions-light.html) · [`docs/machine-a-instructions.html`](docs/machine-a-instructions.html) (sombre)
 
-**En ligne avec GitHub Pages** : dans le dépôt, *Settings → Pages → Build and deployment → Deploy from a branch → `main` / dossier `/docs`*. La page d'accueil est [`docs/index.html`](docs/index.html).
+**En ligne** : les figures sont publiées avec GitHub Pages sur https://sorokarimf.github.io/anatomie-ordinateur/. Pour publier votre propre copie, dans votre dépôt : *Settings → Pages → Build and deployment → Deploy from a branch → `main` / dossier `/docs`*. La page d'accueil est [`docs/index.html`](docs/index.html).
 
 ## Utilisation
 

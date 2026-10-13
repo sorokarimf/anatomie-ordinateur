@@ -2,6 +2,8 @@
 
 *[Version française → README.md](README.md)*
 
+**▶ Try it online: [https://sorokarimf.github.io/anatomie-ordinateur/](https://sorokarimf.github.io/anatomie-ordinateur/)** · [Exploded laptop](https://sorokarimf.github.io/anatomie-ordinateur/laptop-light.html) · [Instruction machine](https://sorokarimf.github.io/anatomie-ordinateur/machine-a-instructions-light.html)
+
 Two **interactive isometric figures** that explain how a computer works by showing real objects instead of boxes and arrows:
 
 | Figure | What it explains |
@@ -22,7 +24,7 @@ Open a file from [`docs/`](docs/) directly in your browser (double-click):
 - [`docs/laptop-light.html`](docs/laptop-light.html) · [`docs/laptop.html`](docs/laptop.html) (dark)
 - [`docs/machine-a-instructions-light.html`](docs/machine-a-instructions-light.html) · [`docs/machine-a-instructions.html`](docs/machine-a-instructions.html) (dark)
 
-**Online with GitHub Pages**: in the repository, *Settings → Pages → Build and deployment → Deploy from a branch → `main` / folder `/docs`*. The landing page is [`docs/index.html`](docs/index.html).
+**Online**: the figures are published with GitHub Pages at https://sorokarimf.github.io/anatomie-ordinateur/. To publish your own copy, in your repository: *Settings → Pages → Build and deployment → Deploy from a branch → `main` / folder `/docs`*. The landing page is [`docs/index.html`](docs/index.html).
 
 ## Usage
 
