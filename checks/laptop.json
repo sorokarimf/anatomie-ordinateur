@@ -1,0 +1,5 @@
+[
+  ["eval", "window.__laptop.show(0)"], ["wait", 200], ["lines"],
+  ["eval", "window.__laptop.show(5)"], ["wait", 200], ["lines"],
+  ["eval", "window.__laptop.show(9)"], ["wait", 200], ["lines"]
+]

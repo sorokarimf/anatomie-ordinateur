@@ -1,0 +1,5 @@
+[
+  ["eval", "window.__machine.show(1.7)"], ["wait", 150], ["lines"],
+  ["eval", "window.__machine.show(4.8)"], ["wait", 150], ["lines"],
+  ["eval", "window.__machine.show(27.2)"], ["wait", 150], ["lines"]
+]

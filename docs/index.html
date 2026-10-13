@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anatomie d'un ordinateur</title>
+<style>
+:root{--bg:#fbfbfa;--fg:#18181a;--muted:#6c6c70;--line:#0000001a;--card:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#131313;--fg:#e6e6e6;--muted:#9a9a9a;--line:#ffffff1f;--card:#1b1b1b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+main{width:min(960px,100% - 32px);margin:48px auto 72px}
+h1{font-size:28px;font-weight:600;margin:0 0 6px}
+p.lead{color:var(--muted);margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:20px}
+.card{background:var(--card);border-radius:12px;box-shadow:0 0 0 1px var(--line);overflow:hidden}
+.card img{display:block;width:100%;height:auto}
+.card div{padding:16px 18px 18px}
+.card h2{font-size:18px;margin:0 0 4px}
+.card p{margin:0 0 12px;color:var(--muted);font-size:14.5px}
+.card a{color:var(--fg);margin-right:14px;font-size:14.5px}
+footer{margin-top:36px;color:var(--muted);font-size:14px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Anatomie d'un ordinateur</h1>
+<p class="lead">Deux figures isométriques interactives. <span lang="en">Two interactive isometric figures.</span></p>
+<div class="grid">
+  <section class="card">
+    <img src="../assets/laptop-eclate.png" alt="Laptop en vue éclatée" loading="lazy">
+    <div>
+      <h2>Laptop en vue éclatée</h2>
+      <p>Neuf composants à monter un par un pour obtenir la machine. <span lang="en">Nine components to assemble one by one.</span></p>
+      <a href="laptop-light.html">Thème clair</a><a href="laptop.html">Thème sombre</a>
+    </div>
+  </section>
+  <section class="card">
+    <img src="../assets/machine.png" alt="Machine à instructions" loading="lazy">
+    <div>
+      <h2>Machine à instructions</h2>
+      <p>Chercher, décoder, exécuter : le cycle d'un processeur. <span lang="en">Fetch, decode, execute.</span></p>
+      <a href="machine-a-instructions-light.html">Thème clair</a><a href="machine-a-instructions.html">Thème sombre</a>
+    </div>
+  </section>
+</div>
+<footer>Code et instructions / source and instructions : <a href="https://github.com/">dépôt GitHub</a></footer>
+</main>
+</body>
+</html>

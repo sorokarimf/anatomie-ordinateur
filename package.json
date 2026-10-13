@@ -1,0 +1,17 @@
+{
+  "name": "anatomie-ordinateur",
+  "version": "1.0.0",
+  "description": "Figures isométriques interactives qui expliquent le fonctionnement d'un ordinateur : une machine à instructions et un laptop en vue éclatée. / Interactive isometric figures explaining how a computer works.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=20.10" },
+  "scripts": {
+    "build:machine": "node figures/machine-a-instructions/build.mjs && node figures/machine-a-instructions/build.mjs --light",
+    "build:laptop": "node figures/laptop/build.mjs && node figures/laptop/build.mjs --light",
+    "build:laptop:fast": "node figures/laptop/build.mjs --fast && node figures/laptop/build.mjs --light --fast",
+    "build": "npm run build:machine && npm run build:laptop",
+    "audit:laptop": "node figures/laptop/build.mjs --light --audit",
+    "check": "node scripts/drive.mjs docs/machine-a-instructions-light.html --actions checks/machine.json --width 1000 && node scripts/drive.mjs docs/laptop-light.html --actions checks/laptop.json --width 1100 --height 1500"
+  }
+}
