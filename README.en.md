@@ -50,7 +50,7 @@ Copy the HTML file you want, then:
 Requirements: **Node.js 20.10 or newer**. Google Chrome or Chromium is only needed for the checks and screenshots.
 
 ```bash
-git clone https://github.com/<your-username>/anatomie-ordinateur.git
+git clone https://github.com/sorokarimf/anatomie-ordinateur.git
 cd anatomie-ordinateur
 
 npm run build:machine        # instruction machine (a few seconds)
