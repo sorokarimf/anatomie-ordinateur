@@ -11,9 +11,9 @@ Two **interactive isometric figures** that explain how a computer works by showi
 
 Each figure is **a single self-contained HTML file**: no server, no dependencies, light and dark themes. The interface text is in French.
 
-![Exploded laptop](assets/laptop-eclate.png)
-![Assembled laptop](assets/laptop-monte.png)
-![Instruction machine](assets/machine.png)
+![Exploded laptop](docs/assets/laptop-eclate.png)
+![Assembled laptop](docs/assets/laptop-monte.png)
+![Instruction machine](docs/assets/machine.png)
 
 ## View the figures
 
@@ -75,7 +75,7 @@ On the laptop, the audit verifies that no part passes through another (assembled
 
 ```
 docs/                        ready-to-use figures (self-contained HTML) + index.html
-assets/                      README screenshots
+docs/assets/               README and landing-page screenshots
 figures/
   machine-a-instructions/    build.mjs (drawing) + model.mjs (animated model)
   laptop/                    build.mjs (parts, motion) + live.js (interaction) + laptop.css

@@ -11,9 +11,9 @@ Deux figures **isométriques et interactives** qui expliquent le fonctionnement 
 
 Chaque figure est **un seul fichier HTML autonome** : pas de serveur, pas de dépendance, thème clair et sombre.
 
-![Laptop en vue éclatée](assets/laptop-eclate.png)
-![Laptop monté](assets/laptop-monte.png)
-![Machine à instructions](assets/machine.png)
+![Laptop en vue éclatée](docs/assets/laptop-eclate.png)
+![Laptop monté](docs/assets/laptop-monte.png)
+![Machine à instructions](docs/assets/machine.png)
 
 ## Voir les figures
 
@@ -75,7 +75,7 @@ L'audit vérifie, sur le laptop, qu'aucune pièce n'en traverse une autre (mont�
 
 ```
 docs/                        figures prêtes à l'emploi (HTML autonomes) + index.html
-assets/                      captures d'écran du README
+docs/assets/               captures d'écran du README et de la page d'accueil
 figures/
   machine-a-instructions/    build.mjs (dessin) + model.mjs (modèle animé)
   laptop/                    build.mjs (pièces, mouvements) + live.js (interaction) + laptop.css
